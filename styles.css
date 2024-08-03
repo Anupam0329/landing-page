@@ -138,10 +138,118 @@ a{
 button{
     background-color: #3882f6;
     color: #E5E7EB;
-    padding: 8px 15px;
+    padding: 5px 20px;
     border-radius: 5px;
     border-style: none;
     margin: 10px 0;
     font-size: 15px;
     font-weight: bold;
+}
+
+
+/* Section 1*/
+
+.section1{
+    margin: 60px;
+}
+
+.infotitle{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.square{
+    border: 3px rgb(58, 161, 202) solid;
+    border-radius: 10px;
+    max-width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+}
+
+.square img{
+    border-radius: 8px;
+}
+
+.boxes{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    gap: 40px;
+}
+
+span.subtext{
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center; 
+}
+
+
+
+
+/*Section 2*/
+
+.section2{
+    background-color: #E5E7EB;
+    padding: 100px 150px;
+    align-content: center;
+    display: flex;
+    flex-direction:column;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    
+}
+.author{
+    font-weight: bold;
+    align-self: flex-end;
+
+}
+
+
+/* Call To action*/
+.section3{
+    padding: 80px 80px;
+}
+.call{
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: #F9FAF8;
+    display: flex;
+    padding: 44px;
+    justify-content: space-around;
+
+}
+
+.bt2{
+    padding:5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+h5{
+    margin-top: 20px;
+}
+
+/*footer*/
+
+.footer{
+    background-color: #1f2937;
+}
+
+h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #F9FAF8;
 }
